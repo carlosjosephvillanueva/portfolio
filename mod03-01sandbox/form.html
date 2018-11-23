@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title> Forms </title>
+	<!-- External Css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+	
+	<body>
+		
+		<form action=""method="">
+			
+			<input type="text" name="username" placeholder="Enter Your Username Here" required>
+			<input type="password" name="password" placeholder="Enter Your Password Here">
+
+			<input type="radio" name="genre" value="rock" checked>Rock
+			<input type="radio" name="genre" value="pop">Rock
+			<input type="radio" name="genre" value="jazz">Rock
+
+		<hr>
+
+			<input type="checkbox" name="fruit" value="apple" checked>Apple
+			<input type="checkbox" name="fruit" value="orange">Orange
+			<input type="checkbox" name="fruit" value="melon">Melon
+		
+			<label>Email:<input type="email" name="email"disabled></label>
+			<label>Contact:<input type="number" name="contact"></label>
+			<input type="submit" name="submit" value="Submit this Form">
+
+		<br>
+
+			<textarea name="comments" placeholder="Write Your Comments Here" rows="4" cols="36"></textarea>
+
+			<select name="channels">
+				<option value="abscbn">ABS-CBN</option>
+				<option value="gma">GMA</option>
+				<option value="tv5" selected>tv5</option>
+				<option value="Facebook">Facebook</option>
+			</select>
+
+			<input type="file" name="image">
+
+			<button>
+				<img src="https://media.giphy.com/media/41I5c7m6CNqHm/giphy.gif">
+			</button>
+
+			<input type="submit" name="submit" value="Submit this Form">
+
+		</form>
+
+		<form>
+			
+			<label> Username: <input type="text" name="name"> </label>
+		
+			<label for="password">Password</label>
+			<input id="password" type="password" name="password">
+
+			<input id="fem" type="radio" name="gender" value="f">
+			<label for="fem">Female</label>
+
+			<input id="male" type="radio" name="gender" value="m">
+			<label for="male">Male</label>
+
+		</form>
+
+		<form>
+			
+			<fieldset>
+				
+				<legend>Contact Details</legend>
+
+				<input id="em" type="email" name="email">
+				<label for="em">Email</label>
+
+			</fieldset>
+
+		</form>
+
+	</body>
+
+</html>

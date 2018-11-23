@@ -1,0 +1,238 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.box {
+	width: 150px;
+	height: 150px;
+	margin: 10px 1.16%;
+	float: left;
+	background: grey;
+}
+
+.container2 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+
+}
+
+.box2 {
+	width: 150px;
+	height: 150px;
+	margin: 10px 1.16%;
+	float: left;
+	background: grey;
+}
+.white {
+	float: left;
+	border: 1px solid white;
+	padding: 10px;
+	padding-bottom: 50px;
+	margin: 10px 1.16%;
+}
+
+.caption {
+	padding-top: 170px;
+	text-align: center;
+	color: white;
+}
+
+.container3 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+
+.box3 {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	float: left;
+	background: grey;
+}
+
+.disease {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.lorem {
+	color: white;
+}
+
+.container4 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+
+.box4 {
+	width: 150px;
+	height: 150px;
+	margin-right: 10px;
+	float: left;
+	background: grey;
+}
+
+.medicine {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.lorem2 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.left {
+	float: left;
+	width: 22%;
+}
+
+.right {
+	float: right;
+	width: 77%;
+}
+
+.container5 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+
+.box5 {
+	height: 50px;
+	width: 50px;
+	background: grey;
+	float: left;
+}
+
+.left2 {
+	float: left;
+	width: 7%;
+}
+
+.right2 {
+	float: right;
+	width: 92%;
+}
+
+.text {
+	width: 100%;
+	height: 100px;
+}
+
+.button {
+	float: right;
+}
+
+.container6 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+
+.box6 {
+	height: 50px;
+	width: 50px;
+	background: grey;
+	float: left;
+}
+
+.left3 {
+	float: left;
+	width: 7%;
+}
+
+.right3 {
+	float: right;
+	width: 91%;
+}
+
+.name {
+	color: white;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+
+.lorem3 {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.anchor {
+	color: blue;
+	margin-right: 10px;
+}
+
+.container7 {
+	background-color: black;
+	width: 700px;
+	padding: 10px;
+	/*border: 1px solid white;*/
+}
+
+.right4 {
+	margin-top: 5px;
+}
+
+.box7 {
+	height: 50px;
+	width: 50px;
+	background: grey;
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+.lorem4 {
+	color: white;
+	margin-bottom: 10px;
+	overflow: hidden;
+
+}
+
+.name2 {
+	color: white;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	
+}
+
+.anchor2 {
+	color: blue;
+	margin-right: 10px;
+}
+
+.right5 {
+	float: right;
+	width: 89.5%;
+
+}
+
+.border {
+	float: right;
+	width: 91%;
+	border-left: 5px solid white;
+}

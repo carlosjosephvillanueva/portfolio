@@ -1,0 +1,242 @@
+* {
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Indie Flower', cursive;
+}
+
+.container {
+	max-width: 960px; /*so that the layout wont expand extensively
+	in very wide displays*/
+	margin: 0 auto;
+}
+
+.header {
+	min-height: 100px;
+	background-color: darkviolet;
+}
+
+.name {
+	width: 90%;
+	margin-left: 45px;
+	margin-top: 40px;
+	color: white;
+	background-color: black;	
+}
+
+#nav {
+	width: 100%;
+	height: 690px;
+	background: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.main {
+	min-height: 700px;
+	background-color: lightgrey; 
+}
+
+
+.footer {
+	height: 100px;
+	background-color: skyblue;
+}
+
+.row:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/*sample grid overlay*/
+.grid > .clm {
+	height: 1060px;
+	width: 7.33%; /*100% / 12 columns minus 1%
+	for the horizontal margins*/
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	background-color: #efefef;
+	opacity: 0.4;
+	padding-top: 530px; /*1060/2, this centers
+	the column vertically*/
+	text-align: center;
+	float: left;
+}
+
+.grid {
+	position: relative;
+	top: -960px; /*to move to the top*/
+}
+
+/*desktop view */
+
+.col-lg-1 {
+	width: 8.33%; /*100% / 12*/
+}
+
+.col-lg-2 {
+	width: 16.66%; /*100% / 12 *2 columns*/
+}
+
+.col-lg-3 {
+	width: 25%; /*100% / 12 times 3 columns*/
+}
+
+.col-lg-4 {
+	width: 33.33%; /*100% / 12 times 4 columns*/
+}
+
+.col-lg-5 {
+	width: 41.66%; /*100% / 12 times 5 columns*/
+}
+.col-lg-6 {
+	width: 50%; /*100% / 12 times 6 columns*/
+}
+.col-lg-7 {
+	width: 58.33%; /*100% / 12 times 7 columns*/
+}
+
+.col-lg-8 {
+	width: 66.66%; /*100% / 12 times 8 columns*/
+}
+.col-lg-9 {
+	width: 75%; /*100% / 12 times 9 columns*/
+}
+.col-lg-10 {
+	width: 83.33%; /*100% / 12 times 10 columns*/
+}
+
+.col-lg-11 {
+	width: 91.66%; /*100% / 12 times; 11 columns*/
+}
+
+.col-lg-12 {
+	width: 100%; /*100% / 12 times; 12 columns*/
+}
+
+.left {
+	height: 700px;
+}
+
+.right {
+	height: 350px;
+}
+
+[class*="col"] {
+	border: 5px solid black;
+	float: left;
+}
+
+/*TABLET VIEW*/
+
+@media only screen and (max-width: 768px) {
+
+	.col-md-1 {
+		width: 8.33%; /*100% / 12*/
+	}
+
+	.col-md-2 {
+		width: 16.66%; /*100% / 12 *2 columns*/
+	}
+
+	.col-md-3 {
+		width: 25%; /*100% / 12 times 3 columns*/
+	}
+
+	.col-md-4 {
+		width: 33.33%; /*100% / 12 times 4 columns*/
+	}
+
+	.col-md-5 {
+		width: 41.66%; /*100% / 12 times 5 columns*/
+	}
+	
+	.col-md-6 {
+		width: 50%; /*100% / 12 times 6 columns*/
+	}
+	
+	.col-md-7 {
+		width: 58.33%; /*100% / 12 times 7 columns*/
+	}
+
+	.col-md-8 {
+		width: 66.66%; /*100% / 12 times 8 columns*/
+	}
+	.col-md-9 {
+		width: 75%; /*100% / 12 times 9 columns*/
+	}
+
+	.col-md-10 {
+		width: 83.33%; /*100% / 12 times 10 columns*/
+	}
+
+	.col-md-11 {
+		width: 91.66%; /*100% / 12 times; 11 columns*/
+	}
+
+	.col-md-12 {
+		width: 100%; /*100% / 12 times; 12 columns*/
+	}	
+}
+
+/*MOBILE*/
+
+@media only screen and (max-width: 450px) {
+
+	.col-1 {
+		width: 8.33%; /*100% / 12*/
+	}
+
+	.col-2 {
+		width: 16.66%; /*100% / 12 *2 columns*/
+	}
+
+	.col-3 {
+		width: 25%; /*100% / 12 times 3 columns*/
+	}
+
+	.col-4 {
+		width: 33.33%; /*100% / 12 times 4 columns*/
+	}
+
+	.col-5 {
+		width: 41.66%; /*100% / 12 times 5 columns*/
+	}
+	
+	.col-6 {
+		width: 50%; /*100% / 12 times 6 columns*/
+	}
+	
+	.col-7 {
+		width: 58.33%; /*100% / 12 times 7 columns*/
+	}
+
+	.col-8 {
+		width: 66.66%; /*100% / 12 times 8 columns*/
+	}
+	.col-9 {
+		width: 75%; /*100% / 12 times 9 columns*/
+	}
+
+	.col-10 {
+		width: 83.33%; /*100% / 12 times 10 columns*/
+	}
+
+	.col-11 {
+		width: 91.66%; /*100% / 12 times; 11 columns*/
+	}
+
+	.col-12 {
+		width: 100%; /*100% / 12 times; 12 columns*/
+	}	
+	
+}
+
+/*MOBILE MUST ALWAYS BE THE LAST IN MEDIA QUERY CSS
+BECAUSE IT IS THE SMALLEST
+*/	

@@ -1,0 +1,213 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.name {
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+}
+
+#full {
+	background-color: blue;
+	width: 300px;
+	height: 100px;
+}
+
+#address {
+	background-color: red;
+	width: 300px;
+	height: 100px;
+}
+.coding {
+	background-color: green;
+	width: 300px;
+	height: 100px;
+}
+}
+
+.place	{
+	background-color: blue;
+	width: 300px;
+	height: 100px;
+}
+#age {
+	background-color: violet;
+	width: 300px;
+	height: 100px;
+}
+
+#navigation {
+	background-color: violet;
+	width: 60px;
+	height: 45px;
+}
+
+.play {
+	width: 600px;
+	background-color: violet;
+}
+
+.class {
+	width: 1000px;
+	background-color: violet;
+}
+
+.super	{
+	width: 1000px;
+	background-color: violet;
+}
+
+.excited {
+	width: 1000px;
+	background-color: violet;
+}
+
+.mangoes {
+	width: 1000px;
+	background-color: violet;
+}
+
+#yakult	{
+	width: 1000px;
+	background-color: violet;
+}
+
+#email {
+	width: 500px;
+	background-color: violet;
+}
+
+.car {
+	width: 500px;
+	background-color: violet;
+}
+
+#bootcamp {
+	width: 500px;
+	background-color: violet;
+}
+.best {
+	height: 100px;
+	background-color: violet;
+}
+
+.b {
+	height: 100px;
+	background-color: violet;
+}
+.google {
+	height: 100px;
+	background-color: violet;
+}
+.button {
+	height: 100px;
+	background-color: violet;
+}
+
+img {
+	height: 100px;
+	background-color: violet;
+}
+
+#check {
+	height: 100px;
+	background-color: violet;
+	padding: 0;
+}
+.out {
+	height: 100px;
+	background-color: violet;
+}
+
+#person {
+	height: 100px;
+	background-color: violet;
+}
+
+.go {
+	width: 100px;
+	background-color: violet;
+}
+.best {
+	width: 100px;
+	background-color: violet;
+}
+.center {
+	width: 100px;
+	background-color: violet;
+}
+.img {
+	width: 100px;
+	background-color: violet;
+}
+.d {
+	width: 100px;
+	background-color: violet;
+}
+.home {
+	width: 100px;
+	background-color: violet;
+}
+.world {
+	width: 100px;
+	background-color: violet;
+}
+.mark {
+	padding: 50;
+	background-color: violet;
+}
+#item {
+	padding: 50;
+	background-color: violet;
+}
+#boom {
+	padding: 50;
+	background-color: violet;
+}
+
+#date {
+	padding: 50;
+	background-color: violet;
+}
+.kult {
+	margin: 50;
+	background-color: violet;
+}
+
+.royal {
+	margin: 50;
+	background-color: violet;
+}
+.tennis {
+	margin: 50;
+	background-color: violet;
+}
+#area {
+	margin: 50;
+	background-color: violet;
+}
+
+.school	{
+	margin: 50;
+	background-color: violet;
+}
+.file {
+	margin: 50;
+	background-color: violet;
+}
+#the {
+	margin: 50;
+	background-color: violet;
+}
+.rock {
+	margin: 50;
+	background-color: violet;
+}
+
+#id {
+	margin: 50;
+	background-color: violet
+}
